@@ -1,0 +1,205 @@
+:root {
+    --primary-color: #353234fa;
+    --secondary-color: #fdfdfdfa;
+    --tertiary-color: #282A3A;
+    --text-color: white;
+    
+   }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+  }
+  
+  a,
+  p {
+    color: var(--secondary-color);
+    font-size: 30px;
+  }
+  
+  header h1 a,
+  header nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 30px;
+    border: solid 2px;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+  }
+  .name a {
+    border: none;
+    background-color: var(--secondary-color);
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    word-spacing: normal;
+    padding-bottom: 14px;
+  }
+  
+  /* hero section */
+  .hero {
+    background-image: url(../images/DominiqueAkers.jpg);
+    height: 1158px;
+    width: 40%;
+    margin-bottom: 60px;
+    margin-left: 98px;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 60px;
+  }
+  
+  .hero p {
+    font-size: 30px;
+  }
+  
+  /* hero end */
+  
+  .work-section{
+    margin: 0px 50px 0px 50px;
+  }
+  .my-work {
+    text-align: center;
+    display: flex;
+  }
+  
+  .my-work h2 {
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  } */
+  
+  /* https://www.w3schools.com/css/css3_buttons.asp */
+  .button {
+    background-color: var(--tertiary-color);
+    border: solid 2px var(--secondary-color);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #work a {
+    color: var(--secondary-color);
+  }
+  
+  #contact {
+    text-align: center;
+  }
+  
+  #contact a {
+    color: var(--secondary-color);
+  }
+  
+  /* footer section */
+  footer {
+    background-color: var(--primary-color);
+    margin: 100px 0 25px 0;
+    padding: 50px 40px;
+  }
+  
+  footer h2 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* footer end */
+  
+  /* SEO */
+  
+   @media screen and (max-width: 980px) {
+    .hero {
+      height: 1158px;
+      width: 90%;
+      justify-content: right;
+      margin-left: 40px;
+    }
+    .name a {
+      border: none;
+      padding-left: 349px;
+    }
+    .hero h2 {
+      color: var(--tertiary-color);
+      padding-left: 20px;
+    }
+  
+    .hero p {
+      color: var(--tertiary-color);
+      padding-left: 38px;
+      font-weight: bold;
+    }
+  }
+  
+  @media screen and (max-width: 775px) {
+    .hero {
+      height: 1158px;
+      width: 90%;
+      justify-content: right;
+      margin-left: 40px;
+    }
+  
+    .name a {
+      border: none;
+      padding-left: 247px;
+    }
+  
+    .hero h2 {
+      color: var(--tertiary-color);
+    }
+  
+    .hero p {
+      color: var(--tertiary-color);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .hero {
+      height: 1158px;
+      width: 90%;
+      justify-content: right;
+      margin-left: 20px;
+    }
+  
+    .hero h2 {
+      color: var(--tertiary-color);
+    }
+  
+    .hero p {
+      color: var(--tertiary-color);
+    }
+    .name a {
+      border: none;
+      padding-left: 67px;
+    }
+  } 
+  
+  
